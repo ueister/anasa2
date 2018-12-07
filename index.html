@@ -57,55 +57,7 @@ a {
   text-align: center;
 }
 </style>
-<script>
-var cal = [{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDEvMDkvMTgvMTUvMDcvNDAxLzIwMThfMDFfY2FsZW5kYXIucGRmIl1d/2018_01_calendar.pdf?sha=48b15c10c3ea62cb",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDEvMDkvMTgvMTQvNTgvNTgwL2NhbGVuZGFyc18yMDE4XzAxLmdpZiJdXQ/calendars_2018_01.gif?sha=f7915695068c2b1f",
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDIvMDEvMTgvMTUvMTYvNTI3LzIwMThfMDJfY2FsZW5kYXIucGRmIl1d/2018_02_calendar.pdf?sha=74be5503f6bf4547",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDIvMDEvMTgvMTUvMjQvNDM4L2NhbGVuZGFyc18yMDE4XzAyLmdpZiJdXQ/calendars_2018_02.gif?sha=914fa8517a634297"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDIvMjYvMjAvMDQvMTgvNTE0LzIwMThfMDNfY2FsZW5kYXIucGRmIl1d/2018_03_calendar.pdf?sha=84a3980675f85672",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDIvMjYvMjAvMDQvMTIvODYzL2NhbGVuZGFyc18yMDE4XzAzLmdpZiJdXQ/calendars_2018_03.gif?sha=288d8c3ca2baa18a"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDMvMzAvMTYvNTAvMTIvODg5LzIwMThfMDRfY2FsZW5kYXIucGRmIl1d/2018_04_calendar.pdf?sha=b98186260da93870",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com//media/W1siZiIsIjIwMTgvMDMvMzAvMTYvNTAvMjAvMzg4L2NhbGVuZGFyc18yMDE4XzA0LmdpZiJdXQ/calendars_2018_04.gif?sha=3aacd3207c80a788"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDQvMzAvMjAvMTQvMzEvNTU3LzIwMThfMDVfY2FsZW5kYXIucGRmIl1d/2018_05_calendar.pdf?sha=0d49bdd94d742abf",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com//media/W1siZiIsIjIwMTgvMDQvMzAvMjAvMTQvMjQvMjAxL2NhbGVuZGFyc18yMDE4XzA1LmdpZiJdXQ/calendars_2018_05.gif?sha=26b28afa417ee7cb"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDYvMDEvMTQvMjEvMDYvNTI4LzIwMThfMDZfY2FsZW5kYXIucGRmIl1d/2018_06_calendar.pdf?sha=9ecc3f98911cfe02",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDYvMDEvMTQvMjEvMTgvODE3L2NhbGVuZGFyc18yMDE4XzA2LmdpZiJdXQ/calendars_2018_06.gif?sha=0c6ab7fd2c077dcc"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDYvMjgvMTgvMjEvNDcvOTM4LzIwMThfMDdfY2FsZW5kYXIucGRmIl1d/2018_07_calendar.pdf?sha=33e264a1b11d0859",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDYvMjgvMTgvMjEvMDIvNzczL2NhbGVuZGFyc18yMDE4XzA3LmdpZiJdXQ/calendars_2018_07.gif?sha=73c6d89da3e935e6"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDgvMDEvMTQvMDAvMzAvODIwLzIwMThfMDhfY2FsZW5kYXIucGRmIl1d/2018_08_calendar.pdf?sha=2ad80a3dfa6cafbd",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDgvMDEvMTMvNTkvMjUvNTQ0L2NhbGVuZGFyc18yMDE4XzA4LmdpZiJdXQ/calendars_2018_08.gif?sha=f60b90cb797ee354"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDgvMzEvMjAvMjEvMjgvOTMvMjAxOF8wOV9jYWxlbmRhci5wZGYiXV0/2018_09_calendar.pdf?sha=d1610adcadce1147",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMDgvMzEvMjAvMjEvMjAvODkvY2FsZW5kYXJzXzIwMThfMDkuZ2lmIl1d/calendars_2018_09.gif?sha=bb319e828285bd05"
-},{
-"pdf":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMTAvMDEvMTMvMzYvNDAvNzgyLzIwMThfMTBfY2FsZW5kYXIucGRmIl1d/2018_10_calendar.pdf?sha=5a88cc20b351d215",
-"thumb":"https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTgvMTAvMDEvMTMvMzYvMzAvNTMyL2NhbGVuZGFyc18yMDE4XzEwLmdpZiJdXQ/calendars_2018_10.gif?sha=22564d6c75db90d5"
-}
-,{
-"pdf":"https://www.sanrio.com/media/W1siZiIsIjIwMTgvMTAvMzEvMTYvMDkvMzQvNTIvMjAxOF8xMV9jYWxlbmRhci5wZGYiXV0/2018_11_calendar.pdf?sha=e3ff83efd18d9408",
-"thumb":"https://www.sanrio.com/media/W1siZiIsIjIwMTgvMTEvMDUvMjAvMTEvMDcvNjY4L2NhbGVuZGFyc18yMDE4XzExLmpwZyJdXQ/calendars_2018_11.jpg?sha=af22cc8e6159399f"
-}
-];
-
-if (document.getElementById("monthlyCal")) {
-	var writeCal = "";
-	for (var key in cal) {
-		if (cal.hasOwnProperty(key)) {
-			writeCal = writeCal + '<a href="'+cal[key].pdf+'" target="_blank"><img src="'+cal[key].thumb+'"></a> ';
-		}
-	}
-
-	document.getElementById("monthlyCal").innerHTML = writeCal;
-}
-</script>
+<script type="text/javascript" src="dogs.js"></script>
   </head>
   <body>
 <!-- Put your final HTML here -->
@@ -117,90 +69,31 @@ if (document.getElementById("monthlyCal")) {
 		</blockquote>
 	</header>
 
-<div class="container">
-<div class="row">
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/1.a72d1bdd.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content" role="document">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="http://localhost:3000/static/media/1.a72d1bdd.jpeg" class="img-responsive" style="display:block;max-width:100%;height:auto;">>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/2.284d55fd.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/3.f4cf769c.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong3">
-
-
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/4.661f73aa.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/5.1365794b.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/6.2e6f1954.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/7.c7f65b50.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/8.4941f5d4.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/9.2c87a225.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/10.288c7642.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/11.83ed10d7.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/12.3f8abd03.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/13.43b940ec.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/14.be3836a6.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6">
-<img src="http://localhost:3000/static/media/15.23c91b7d.jpeg" style="max-height: 85px; margin: auto;" class="img-responsive">
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content" role="document">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="http://localhost:3000/static/media/3.f4cf769c.jpeg" class="img-responsive" style="display:block;max-width:100%;height:auto;">
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="container">
+		<div class="row" id="modalarea">
+		</div>
+	</div>
 
 	<footer class="global-footer">
 		<p>Built by a wonderful developer for Asana.</p>
 	</footer>
+
+<script>
+function writeImage(key,image) {
+	var modal = '<div style="padding-bottom: 30px;" class="text-center col-md-2 col-xs-6"><img src="'+image+'" style="max-height: 85px; margin: auto;" class="img-responsive" class="btn btn-primary" data-toggle="modal" data-target="#dogimage'+key+'"><div class="modal fade" id="dogimage'+key+'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true"><div class="modal-dialog"><div class="modal-content" role="document"><div class="modal-header" style="border:none"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><img src="'+image+'" class="img-responsive" style="display:block;max-width:100%;height:auto;"></div></div></div></div></div>';
+
+	return modal;
+}
+
+var writeGrid = "";
+for (var key in dogs) {
+	if (dogs.hasOwnProperty(key)) {
+		writeGrid = writeGrid + writeImage(key,dogs[key].image);
+	}
+}
+
+document.getElementById("modalarea").innerHTML = writeGrid;
+</script>
 
   </body>
 </html>
